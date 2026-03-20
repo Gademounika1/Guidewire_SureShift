@@ -28,6 +28,14 @@ The system predicts disruption risks using weather and environmental data. Worke
 
 ---
 
+## System Architecture
+
+![SureShift Architecture](Architecture.png)
+
+The SureShift system consists of a worker mobile application, an admin dashboard, and a backend service that integrates AI services and external APIs to predict disruptions and automatically process compensation.
+
+---
+
 ## Key Features
 
 **AI Risk Assessment**
@@ -52,9 +60,9 @@ Claims are verified using GPS location, weather data, and delivery activity.
 
 ## Weekly Pricing Model
 
-Basic Plan – ₹20 per week
-Standard Plan – ₹35 per week
-Premium Plan – ₹50 per week
+* Basic Plan – ₹20 per week
+* Standard Plan – ₹35 per week
+* Premium Plan – ₹50 per week
 
 The weekly pricing matches the typical earning cycle of gig workers.
 
@@ -92,20 +100,27 @@ Payments:
 
 ## Workflow
 
-1. Worker registers in the SureShift mobile app.
-2. Worker selects a weekly plan or activates a protected shift.
-3. The system monitors weather and disruption data.
-4. If a disruption occurs, the system verifies the worker’s location and activity.
-5. The claim is automatically approved and the payout is sent.
+1. Worker registers in the SureShift mobile app
+2. Worker selects a weekly plan or activates a protected shift
+3. The system monitors weather and disruption data
+4. If a disruption occurs, the system verifies worker location and activity
+5. The claim is automatically approved and payout is sent
 
 ---
 
-Prototype: https://tamp-walnut-73908000.figma.site/
+## Prototype
+
+Figma Prototype:
+https://tamp-walnut-73908000.figma.site/
+
+---
+
 ## Team
 
 **Team Name:** SureShift
 
-**Members:**
-Gade Mounika Sri Sai Varshitha
-Mehek Fatima Shaik
-Kari Midhun
+**Members**
+
+* Gade Mounika Sri Sai Varshitha
+* Mehek Fatima Shaik
+* Kari Midhun
