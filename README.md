@@ -117,7 +117,7 @@ https://tamp-walnut-73908000.figma.site/
 
 ## Team
 
-**Team Name:** SureShift
+**Team Name:** Techtitans
 
 **Members**
 
